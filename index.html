@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reglamento Oficial de Voleibol 2025–2028</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background-image: url("volleyball-regler.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+        
+
+        header {
+            background-color: #1e3d59;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #16324f;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 12px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #f5a623;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: #ffffffd5;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        section {
+            display: none;
+
+        }
+
+        section.active {
+            display: block;
+        }
+
+        h2 {
+            color: #1e3d59;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1e3d59;
+            color: #fff;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 900px;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: 20px auto;
+        }
+        
+
+        @media (max-width: 600px) {
+            nav a {
+                flex: 1 1 100%;
+                border-top: 1px solid #fff2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Reglamento Oficial de Voleibol 2025–2028</h1>
+        <p>Basado en las reglas aprobadas por el Congreso de la FIVB 2024</p>
+    </header>
+
+    <nav>
+        <a href="#" onclick="mostrar('historia')">Historia</a>
+        <a href="#" onclick="mostrar('cap1')">Capítulo 1: Instalaciones</a>
+        <a href="#" onclick="mostrar('cap2')">Capítulo 2: Participantes</a>
+        <a href="#" onclick="mostrar('cap3')">Capítulo 3: Formato de juego</a>
+        <a href="#" onclick="mostrar('cap4')">Capítulo 4: Acciones de juego</a>
+        <a href="#" onclick="mostrar('cap5')">Capítulo 5: Interrupciones</a>
+        <a href="#" onclick="mostrar('cap6')">Capítulo 6: Jugador Líbero</a>
+        <a href="#" onclick="mostrar('cap7')">Capítulo 7: Conducta</a>
+        <a href="#" onclick="mostrar('cap8')">Capítulo 8: Árbitros</a>
+    </nav>
+
+    <main>
+        <section id="historia" class="active">
+            <h2>Historia del Voleibol</h2>
+            <img src="historia_de_el_volley.jpg" alt="Historia del voleibol">
+            <p>
+                El voleibol nació el <strong>9 de febrero de 1895</strong> en Holyoke, Massachusetts (EE. UU.),
+                gracias a <strong>William George Morgan</strong>, un profesor de educación física que trabajaba en la YMCA (Asociación Cristiana de Jóvenes).
+                Morgan buscaba crear un deporte que combinara actividad física, trabajo en equipo y entretenimiento,
+                pero que no implicara tanto contacto físico como el baloncesto, recientemente inventado por su amigo <strong>James Naismith</strong>.
+            </p>
+        
+            <p>
+                Morgan llamó inicialmente a su juego “<em>Mintonette</em>”, inspirado en el bádminton.
+                Las primeras reglas establecían una cancha de 15 x 7,5 metros, una red a una altura de 1,98 m y un número ilimitado de jugadores.
+                En 1896, durante una demostración en Springfield College, el profesor <strong>Alfred Halstead</strong> observó cómo el balón se 
+                “voleaba” constantemente de un lado a otro de la red, y sugirió el nombre <strong>“volleyball”</strong> (voleibol).
+            </p>
+        
+            <img src="volley_antiguo.jpg" alt="Partido de voleibol antiguo">
+        
+            <p>
+                Con el paso del tiempo, el deporte se fue expandiendo por el mundo gracias a la YMCA y las universidades estadounidenses.
+                Llegó a Canadá en 1900, a Asia en 1908 (principalmente a Japón y Filipinas), y en la década de 1910 ya era popular en América del Sur y Europa.
+            </p>
+        
+            <p>
+                En <strong>1947</strong>, tras la Segunda Guerra Mundial, se fundó en París la <strong>Federación Internacional de Voleibol (FIVB)</strong>,
+                con 14 países miembros. Este fue un paso clave para unificar las reglas y promover torneos internacionales.
+                Un año después se celebró el primer <strong>Campeonato Mundial masculino</strong>, y en 1952 el primero femenino.
+            </p>
+        
+            <img src="primer_campeonato.jpg" alt="Campeonato mundial de voleibol">
+        
+            <p>
+                El voleibol fue incorporado oficialmente al programa de los <strong>Juegos Olímpicos de Tokio 1964</strong>,
+                con grandes potencias como la Unión Soviética, Japón y Polonia dominando las primeras décadas.
+                Posteriormente, países como Brasil, Estados Unidos, Italia y China se convirtieron en referentes mundiales.
+            </p>
+        
+            <p>
+                En <strong>1996</strong>, en Atlanta, debutó la modalidad de <strong>voleibol de playa</strong>,
+                la cual rápidamente ganó popularidad gracias a su estilo dinámico y ambiente playero.
+                Desde entonces, el voleibol (en ambas modalidades) ha seguido creciendo, con más de <strong>200 federaciones nacionales afiliadas</strong> a la FIVB.
+            </p>
+        
+            <img src="volley_playa.jpg" alt="Voleibol de playa moderno">
+        
+            <p>
+                Hoy en día, el voleibol es uno de los <strong>deportes más practicados del mundo</strong>,
+                tanto a nivel recreativo como profesional. Su combinación de técnica, estrategia y espíritu de equipo
+                lo convierte en una disciplina apasionante que promueve la cooperación, la rapidez mental y el respeto entre jugadores.
+            </p>
+        
+            <p><em>“El voleibol no solo es un deporte: es una escuela de trabajo en equipo, esfuerzo y superación.”</em></p>
+        </section>
+
+        <section id="cap1">
+            <h2>Capítulo 1: Instalaciones y Equipamiento</h2>
+            <p>
+                El área de juego del voleibol mide <strong>18 metros de largo por 9 metros de ancho</strong>. 
+                Está dividida por una línea central que separa las dos zonas de equipo. 
+                Alrededor debe existir una zona libre de al menos 3 metros, y un espacio libre superior de 7 metros como mínimo.
+            </p>
+            <p>
+                En competiciones internacionales, la zona libre lateral debe ser de 5 metros y la zona de fondo de 8 metros. 
+                La superficie debe ser uniforme, plana y libre de obstáculos. El color del piso debe ser diferente entre la zona de juego y la zona libre.
+            </p>
+            <p>
+                La red mide 1 metro de ancho y su altura varía: <strong>2.43 m para hombres</strong> y <strong>2.24 m para mujeres</strong>. 
+                Los postes se ubican a 0.5 – 1 metro fuera de las líneas laterales y no deben presentar elementos peligrosos.
+            </p>
+            <p>
+                El balón debe ser esférico, de material flexible, con una circunferencia de 65–67 cm y un peso entre 260–280 g. 
+                La presión interior debe ser de 0.3–0.325 kg/cm². 
+                En competiciones internacionales, todos los balones utilizados deben ser del mismo tipo, color y marca.
+            </p>
+            <img src="instalaciones.png" alt="Instalaciones">
+
+        </section>
+
+        <section id="cap2">
+            <h2>Capítulo 2: Participantes</h2>
+            <p>
+                Cada equipo está formado por un máximo de <strong>12 jugadores</strong>, un entrenador, un asistente, un fisioterapeuta y un médico. 
+                Durante un partido, solo seis jugadores se encuentran en el campo, tres en la zona delantera y tres en la zaguera.
+            </p>
+            <p>
+                El <strong>capitán del equipo</strong> es el representante en el terreno. 
+                Participa en el sorteo inicial y puede dirigirse al árbitro para solicitar aclaraciones. 
+                Además, debe mantener el orden y la disciplina dentro del grupo.
+            </p>
+            <p>
+                El <strong>entrenador</strong> tiene la responsabilidad táctica del equipo, 
+                decide las formaciones y realiza las sustituciones. 
+                Puede comunicarse con sus jugadores durante el juego sin interrumpirlo.
+            </p>
+            <p>
+                Los uniformes deben ser iguales en diseño y color, con números visibles en el pecho y espalda (del 1 al 20). 
+                El <strong>líbero</strong> usa un uniforme diferente para ser identificado fácilmente.
+            </p>
+            <img src="participantes.jpeg" alt="participantes">
+        </section>
+
+        <section id="cap3">
+            <h2>Capítulo 3: Formato de Juego</h2>
+            <p>
+                El partido de voleibol se disputa al mejor de <strong>cinco sets</strong>. 
+                Los primeros cuatro se juegan a 25 puntos y el quinto (de desempate) a 15 puntos, 
+                con una diferencia mínima de dos puntos para ganar el set.
+            </p>
+            <p>
+                Cada acción del juego produce un punto, independientemente de quién haya sacado. 
+                Esto se conoce como el <strong>sistema de punto por jugada (Rally Point System)</strong>.
+            </p>
+            <p>
+                Al inicio del partido, se realiza un sorteo que determina qué equipo saca y qué lado ocupará. 
+                Los equipos cambian de campo en cada set y, en el quinto set, cuando uno de los equipos alcanza 8 puntos.
+            </p>
+            <p>
+                Las posiciones de los jugadores deben respetarse según el orden de rotación. 
+                Cuando un equipo gana el derecho al saque, rota un lugar en el sentido de las agujas del reloj.
+            </p>
+            <img src="formato de juego.jpg" alt="Formato">
+        </section>
+
+        <section id="cap4">
+            <h2>Capítulo 4: Acciones de Juego</h2>
+            <p>
+                El balón puede ser tocado o impulsado con cualquier parte del cuerpo, siempre que el contacto sea limpio. 
+                Cada equipo dispone de <strong>tres toques</strong> para devolver el balón al campo contrario.
+            </p>
+            <p>
+                Las principales acciones de juego son:
+            </p>
+            <ul>
+                <li><strong>Saque:</strong> Inicia la jugada. El jugador debe golpear el balón desde detrás de la línea de fondo.</li>
+                <li><strong>Recepción:</strong> Primer contacto, destinado a controlar el saque contrario.</li>
+                <li><strong>Pase o colocación:</strong> Segundo toque, que prepara el ataque.</li>
+                <li><strong>Ataque o remate:</strong> Tercer toque, con intención de anotar un punto.</li>
+                <li><strong>Bloqueo:</strong> Acción defensiva cerca de la red para detener el ataque rival.</li>
+            </ul>
+            <p>
+                El balón está “dentro” si toca el suelo o la línea del campo rival, y “fuera” si cae completamente fuera. 
+                No se permite retener, lanzar ni acompañar el balón.
+            </p>
+            <img src="acciones_de_juego.jpg" alt="acciones">
+        </section>
+
+        <section id="cap5">
+            <h2>Capítulo 5: Interrupciones e Intervalos</h2>
+            <p>
+                Cada equipo puede solicitar hasta <strong>dos tiempos de descanso</strong> y <strong>seis sustituciones</strong> por set. 
+                Las interrupciones se utilizan estratégicamente para recuperar energía o ajustar tácticas.
+            </p>
+            <p>
+                Las sustituciones deben ser rápidas y realizadas en la zona designada frente al anotador. 
+                Si un jugador se lesiona y no puede continuar, puede ser reemplazado permanentemente.
+            </p>
+            <p>
+                Los intervalos entre sets duran tres minutos, durante los cuales los equipos cambian de lado y el árbitro verifica las alineaciones.
+            </p>
+            <img src="interrupciones.jpg" alt="interrupciones">
+
+        </section>
+
+        <section id="cap6">
+            <h2>Capítulo 6: El Jugador Líbero</h2>
+            <p>
+                El <strong>líbero</strong> es un jugador especializado en defensa que no puede atacar, sacar ni bloquear. 
+                Su función es mejorar la recepción y la defensa del equipo.
+            </p>
+            <p>
+                Usa un uniforme de color distinto para ser identificado fácilmente. 
+                Puede entrar y salir del campo libremente, pero solo en sustitución de un jugador zaguero.
+            </p>
+            <p>
+                El líbero no puede completar un golpe de ataque si el balón se encuentra por encima del borde superior de la red. 
+                Tampoco puede realizar un pase de dedos desde la zona delantera si otro jugador ataca el balón por encima de la red.
+            </p>
+            <img src="libero.png" alt="jugador libero">
+        </section>
+
+        <section id="cap7">
+            <h2>Capítulo 7: Conducta de los Participantes</h2>
+            <p>
+                Todos los participantes deben comportarse de manera respetuosa y deportiva. 
+                Se espera autocontrol, espíritu de equipo y respeto hacia los árbitros y adversarios.
+            </p>
+            <p>
+                Las conductas incorrectas se clasifican en:
+            </p>
+            <ul>
+                <li><strong>Menores:</strong> gestos o palabras de desacuerdo sin mala intención (advertencia verbal).</li>
+                <li><strong>Sancionables:</strong> actitudes irrespetuosas, provocaciones o discusiones (tarjeta amarilla o roja).</li>
+                <li><strong>Graves:</strong> agresiones verbales o físicas, que pueden llevar a la descalificación del jugador.</li>
+            </ul>
+            <p>
+                La FIVB promueve valores como la cortesía, la honestidad y el juego limpio en todas las competiciones oficiales.
+            </p>
+            <img src="conducta.jpg" alt="conducta de los paticipantes">
+        </section>
+
+        <section id="cap8">
+            <h2>Capítulo 8: Árbitros y Señales</h2>
+            <p>
+                El cuerpo arbitral está formado por:
+            </p>
+            <ul>
+                <li><strong>Primer árbitro:</strong> dirige el partido desde una plataforma elevada. Tiene autoridad sobre todas las decisiones.</li>
+                <li><strong>Segundo árbitro:</strong> controla las sustituciones, tiempos y la zona de red.</li>
+                <li><strong>Anotador:</strong> registra los puntos, rotaciones y sanciones.</li>
+                <li><strong>Jueces de línea:</strong> observan las líneas laterales y de fondo, indicando si el balón está dentro o fuera.</li>
+            </ul>
+            <p>
+                Los árbitros utilizan un sistema de señales manuales universales para comunicar decisiones: 
+                indicaciones de punto, faltas, rotaciones y sustituciones.
+            </p>
+            <p>
+                Su labor es esencial para mantener la imparcialidad y el orden del juego, aplicando el reglamento de forma coherente y justa.
+            </p>
+            <img src="señales y arbitros.jpg" alt="señales y arbitros">
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Reglas Oficiales de Voleibol - FIVB </p>
+    </footer>
+
+    <script>
+        function mostrar(id) {
+            document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+</body>
+</html>
